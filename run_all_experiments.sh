@@ -10,11 +10,11 @@ echo "Using gradient accumulation (steps=8) for effective batch size of 64"
 echo "============================================================"
 
 # Create timestamp folder for all results
-TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
-mkdir -p "results_$TIMESTAMP"
+# TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+mkdir -p "experiment_results"
 
 # Set BASE_DIR environment variable for all scripts
-export BASE_DIR="results_$TIMESTAMP"
+export BASE_DIR="experiment_results"
 echo "All results will be saved to: $BASE_DIR"
 echo "============================================================"
 
