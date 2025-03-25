@@ -1,0 +1,26 @@
+# Log files
+*.log
+
+# Word documents
+*.docx
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data directories
+denoised_data/
+experiment_results/
+results_20250325_120324/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+venv/
+env/ 
